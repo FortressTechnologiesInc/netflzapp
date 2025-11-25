@@ -17,5 +17,5 @@ jobs:
 
       - name: Docker build and push
         run: |
-          docker build --build-arg TMDB_V3_API_KEY=36a50cd7bedc727a9c31ebf3d41fc568 -t iscanprint/netflzapp:3.0 . -f Dockerfile2
+          docker build --build-arg TMDB_V3_API_KEY=36a50cd7bedc727a9c31ebf3d41fc568 -t iscanprint/netflzapp:3.0 . -f Dockerfile1
          
